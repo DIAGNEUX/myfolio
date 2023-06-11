@@ -1,38 +1,323 @@
-.App {
-  text-align: center;
+@import url('https://fonts.cdnfonts.com/css/roobert');
+:root{
+    --main: #000;
+    --second: #5918df;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roobert', sans-serif;
+    
+}
+body{
+    background-color: var(--main);
+    color: aliceblue;
+}
+h1{
+    font-weight: 500;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+.navbar ul{
+    text-decoration: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 10px;
+    opacity: 0.8;
+}
+.navbar ul li a{
+    color:aliceblue ;
+    text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar .logo{
+    margin-left: 10px;
+}
+canvas {
+    height: 500px;
+    width: 50vh;
+}
+.flex_presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  100%;
+    height: 90vh;
+    position: fixed;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.presentation p{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 45px;
+ 
+}
+.presentation p span{
+    
+    color: var(--second);
+    font-weight: bolder;
+}
+
+.presentation p span:hover{
+    background-color: #5918df;
+    -webkit-text-fill-color: var(--second);
+}
+
+.contact{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+.contact li{
+    list-style: none;
+}
+.contact li img{
+    filter: grayscale(100);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+.contact li img:hover{
+    filter: none;
+}
+
+/* profil */
+
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.profil .moi{
+    width: 500px;
+}
+.profil .moi h1{
+    text-align: center;
+}
+.profil .user img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.wrap_competence {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--second);
+}
+
+.wrap_competence .competence h1{
+    font-size: 40px;
+}
+.h1_comp{
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+/* Experience */
+.Experience{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    gap: 10px;
+}
+.Experience div{
+    border: 1px solid var(--second) ;
+    height: 300px;
+}
+
+/* bts sio */
+
+.main_bts{
+    font-family: 'Roobert', sans-serif;
+    width: 100%;
+    height: 90vh;
+    padding: 20px;
+}
+.wrap_bts h1 , .wrap_bts h3{
+    text-align: center;
+    margin: 10px 0;
+}
+.wrap_bts p {
+    padding: 0 30px;
+    margin: 10px 0;
+}
+.bts_grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bts_grid .SISR , .bts_grid .SLAM{
+    margin: 10px 0;
+}
+
+/* Ecole */
+
+.ecole{
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+.ecole h1{
+    text-align: center;
+}
+
+.ecole .projet{
+    width:100% ;
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    gap: 20px;
+
+}
+.ecole .projet .projet_contain {
+    position: relative;
+    
+}
+.ecole .projet .projet_contain .projet_img{
+    height: 400px;
+    border-radius: 20px;
+    background: linear-gradient(217deg, rgba(168, 3, 176, 0.8), rgba(255,0,0,0) 70.71%),            
+    linear-gradient(127deg, rgba(240, 39, 210, 0.8), rgba(0,255,0,0) 70.71%),            
+    linear-gradient(336deg, rgba(119, 0, 255, 0.8), rgba(0,0,255,0) 70.71%);
+    backdrop-filter: blur(10px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ecole .projet .projet_contain .projet_img .theimg{
+
+    width: 400px;
+    height: 300px;
+}
+.ecole .projet .projet_contain  ul{
+    display: flex;
+    
+}
+.ecole .projet div  ul li{
+    display: inline-block;
+    padding: 8px 10px;
+    border: 1px solid var(--second);
+    border-radius: 5px;
+    margin: 5px;
+}
+.ecole .link{
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+}
+.ecole .link img{
+    width: 30px;
+    height: 30px;
+    
+}
+.ecole .link p{
+    padding: 4px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px 0;
+    cursor: pointer;
+
+}
+ 
+
+/* Entreprise */
+
+.Entreprise{
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+.Entreprise h1{
+    text-align: center;
+}
+.Ent_contain{
+    width:100% ;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--second);
+}
+.Ent_contain p{
+    font-size: 45px;
+}
+
+/* veille technologique  */
+
+.V_tech{
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+.V_tech h1 {
+    text-align: center;
+}
+.V_tech p{
+    padding: 10px 30px;
+}
+.tools{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tools button{
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-size: 17px;
+}
+.lesveilles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lesveilles .first , .lesveilles .second{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--second);
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .loading-overlay h1{
+    font-size: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .loading-overlay-text {
+    color: white;
+    font-size: 24px;
   }
-}
+
