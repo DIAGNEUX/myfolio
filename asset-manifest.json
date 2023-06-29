@@ -1,17 +1,31 @@
 {
   "files": {
-    "main.css": "/myfolio/static/css/main.0d28bed9.css",
-    "main.js": "/myfolio/static/js/main.01fc58a1.js",
+    "main.css": "/myfolio/static/css/main.a70ecbef.css",
+    "main.js": "/myfolio/static/js/main.7b812c20.js",
     "static/js/787.7efd31bd.chunk.js": "/myfolio/static/js/787.7efd31bd.chunk.js",
+    "static/media/glpi.pdf": "/myfolio/static/media/glpi.a0f3856a0c56dd86049f.pdf",
+    "static/media/Alioune DIAGNE Document.pdf": "/myfolio/static/media/Alioune DIAGNE Document.34624f7dc1e1662e548b.pdf",
     "static/media/library.png": "/myfolio/static/media/library.0ef31ee71b10fc4fdb15.png",
     "static/media/GLPI.png": "/myfolio/static/media/GLPI.9b6fd903d46efa9081ba.png",
+    "static/media/Présentation projet slam.pdf": "/myfolio/static/media/Présentation projet slam.667c0d3beaf5c487e30b.pdf",
+    "static/media/Présentation de Eratech.pdf": "/myfolio/static/media/Présentation de Eratech.0fe7d2d0992392478674.pdf",
     "static/media/ps_site.png": "/myfolio/static/media/ps_site.b8b984ea38ccd20e12e6.png",
+    "static/media/diagne-alioune-cv+(8).pdf": "/myfolio/static/media/diagne-alioune-cv+(8).ceb143a2660b855ba457.pdf",
     "static/media/php.png": "/myfolio/static/media/php.60008588b08878c3db25.png",
     "static/media/NodeJS.png": "/myfolio/static/media/NodeJS.e1d9233897fbe03fda7b.png",
     "static/media/mysql.png": "/myfolio/static/media/mysql.949fa505a4c704b534aa.png",
+    "static/media/Alioune_diagne-removebg-preview.png": "/myfolio/static/media/Alioune_diagne-removebg-preview.f890823a470c2d2b59f7.png",
+    "static/media/first Veille technologique.pdf": "/myfolio/static/media/first Veille technologique.b7aee8a8d23bac915699.pdf",
+    "static/media/Les outils de la veille technologie.pdf": "/myfolio/static/media/Les outils de la veille technologie.2629efbcd00918ac17d4.pdf",
+    "static/media/Tableau de synthèse - Epreuve E4 - BTS SIO 2023.pdf": "/myfolio/static/media/Tableau de synthèse - Epreuve E4 - BTS SIO 2023.91c6268fa60962e2f14e.pdf",
+    "static/media/Etude de Marche.pdf": "/myfolio/static/media/Etude de Marche.492dc2b68551ef00462c.pdf",
+    "static/media/Equipe.pdf": "/myfolio/static/media/Equipe.6adc33761a4c93acd083.pdf",
     "static/media/react.png": "/myfolio/static/media/react.b4478729c8aff3203288.png",
+    "static/media/Kbis.pdf": "/myfolio/static/media/Kbis.6d08bd8f286b65dfeab7.pdf",
     "static/media/html.png": "/myfolio/static/media/html.ef9b15df9bfabc6c347e.png",
+    "static/media/1022-M-Nathan-LAURY.pdf": "/myfolio/static/media/1022-M-Nathan-LAURY.5f384a673c2e31b435d8.pdf",
     "static/media/css.png": "/myfolio/static/media/css.39bb55f6e3542a1f41bd.png",
+    "static/media/UI and UX.png": "/myfolio/static/media/UI and UX.a899b849751504c75b6d.png",
     "static/media/blender.png": "/myfolio/static/media/blender.894a78f8187262204db7.png",
     "static/media/user.jpg": "/myfolio/static/media/user.b3ac7324fe8b475352c1.jpg",
     "static/media/linkedin.png": "/myfolio/static/media/linkedin.375093d58bacaaabe769.png",
@@ -19,12 +33,12 @@
     "static/media/Github-real.png": "/myfolio/static/media/Github-real.06667c6fc6b35110e1cf.png",
     "static/media/javascript.png": "/myfolio/static/media/javascript.4ae67aaac681c7d56102.png",
     "index.html": "/myfolio/index.html",
-    "main.0d28bed9.css.map": "/myfolio/static/css/main.0d28bed9.css.map",
-    "main.01fc58a1.js.map": "/myfolio/static/js/main.01fc58a1.js.map",
+    "main.a70ecbef.css.map": "/myfolio/static/css/main.a70ecbef.css.map",
+    "main.7b812c20.js.map": "/myfolio/static/js/main.7b812c20.js.map",
     "787.7efd31bd.chunk.js.map": "/myfolio/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d28bed9.css",
-    "static/js/main.01fc58a1.js"
+    "static/css/main.a70ecbef.css",
+    "static/js/main.7b812c20.js"
   ]
 }
