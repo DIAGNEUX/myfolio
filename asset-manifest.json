@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myfolio/static/css/main.a70ecbef.css",
-    "main.js": "/myfolio/static/js/main.7b812c20.js",
+    "main.js": "/myfolio/static/js/main.e7419fc8.js",
     "static/js/787.7efd31bd.chunk.js": "/myfolio/static/js/787.7efd31bd.chunk.js",
     "static/media/glpi.pdf": "/myfolio/static/media/glpi.a0f3856a0c56dd86049f.pdf",
     "static/media/Alioune DIAGNE Document.pdf": "/myfolio/static/media/Alioune DIAGNE Document.34624f7dc1e1662e548b.pdf",
@@ -34,11 +34,11 @@
     "static/media/javascript.png": "/myfolio/static/media/javascript.4ae67aaac681c7d56102.png",
     "index.html": "/myfolio/index.html",
     "main.a70ecbef.css.map": "/myfolio/static/css/main.a70ecbef.css.map",
-    "main.7b812c20.js.map": "/myfolio/static/js/main.7b812c20.js.map",
+    "main.e7419fc8.js.map": "/myfolio/static/js/main.e7419fc8.js.map",
     "787.7efd31bd.chunk.js.map": "/myfolio/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a70ecbef.css",
-    "static/js/main.7b812c20.js"
+    "static/js/main.e7419fc8.js"
   ]
 }
