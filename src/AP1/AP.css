@@ -1,0 +1,74 @@
+@import url('https://fonts.cdnfonts.com/css/roobert');
+:root{
+    --main: #000;
+    --second: #5918df;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roobert', sans-serif;
+    
+}
+body{
+    background-color: var(--main);
+    color: aliceblue;
+    
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+  }
+  
+.closeButton{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+.AP1{
+    padding: 0 20px;
+}
+.AP1 ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border-bottom: 1px solid var(--second);
+    border-left: 1px solid var(--second);
+}
+.AP1 ul li img{
+    width: 40px;
+    height: 40px;
+}
+.AP1 ul li p{
+    cursor: pointer;
+}

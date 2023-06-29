@@ -13,6 +13,7 @@ import github from './assets/github.png';
 import linkedin from './assets/linkedin.png';
 import gmail from './assets/gmail.png';
 import Loading from './Loading';
+import AP1 from './AP1/AP1';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -43,6 +44,7 @@ const App = () => {
             <Route path="/entreprise" element={<Entreprise />} />
             <Route path="/veille-technologique" element={<VeilleTechnologique />} />
             <Route path="/veille-juridique" element={<VeilleJuridique />} />
+            <Route path="/ap1" element={<AP1 />} />
           </Routes>
           <div className='contact'>
             <li> <img src={linkedin} alt="" /> </li>
